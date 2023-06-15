@@ -1,38 +1,41 @@
-/* Common styles */
-.navbar {
-  background-color: #f1f1f1;
-  
+/* Reset default browser styles */
+body, header, nav, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.navbar-nav {
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
 }
 
-.nav-item {
-
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
 }
 
-.nav-link {
-
+nav ul {
+  display: flex;
 }
 
-/* Mobile styles */
-@media only screen and (max-width: 600px) {
-  .navbar {
-
-  }
-
-  .navbar-nav {
-
-  }
-
-  .nav-item {
-
-  }
-
-  .nav-link {
-
-  }
+nav ul li {
+  margin-left: 10px;
 }
 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
