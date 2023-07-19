@@ -46,3 +46,13 @@ nav ul li a:hover {
 .heading{
   text-align: center;
 }
+
+body {
+    overflow: auto;
+    background-image: none;
+    background-size: none;
+    background: none;
+    font-family: "Proxima";
+    margin: 0 ! important;
+    color: #212338;
+}
