@@ -60,3 +60,14 @@ body {
 .view-school {
     margin-top: 0;
 }
+
+.course-block, .block {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: #fff;
+    word-break: break-word;
+}
+
+div{
+  display: block;
+}
