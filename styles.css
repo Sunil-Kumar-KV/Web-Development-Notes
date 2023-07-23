@@ -159,3 +159,9 @@ display: grid;
     justify-self: start;
     align-self: start;
 }
+
+.font_0 {
+  font: normal normal bold 100px/1.4em opensanshebrewcondensed-regular,sans-serif;
+  color: rgb(255, 255, 255;
+  letter-spacing: 0em;
+}
