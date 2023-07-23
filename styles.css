@@ -132,3 +132,14 @@ ul {
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
+
+position:static;
+display:grid;
+height:auto;
+width:100%;
+min-height:844px;
+grid-template-rows:repeat(5, min-content) 1fr;
+grid-template-columns:100%;
+padding-bottom:0px;
+box-sizing:border-boxposition:static;
+display:grid;
