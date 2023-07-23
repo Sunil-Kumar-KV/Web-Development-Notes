@@ -145,3 +145,17 @@ padding-bottom:0px;
 box-sizing:border-boxposition: static;
 display: grid;
 }
+
+#comp-ivqmvkyl{
+  height: auto;
+  width: 962px;
+}
+
+.BaOVQ8 .tz5f0K .comp-ivqmvkyl .wixui-rich-text {
+  position: relative;
+    margin: 110px 0px 30px calc((100% - 980px) * 0.5);
+    left: 9px;
+    grid-area: 1 / 1 / 2 / 2;
+    justify-self: start;
+    align-self: start;
+}
